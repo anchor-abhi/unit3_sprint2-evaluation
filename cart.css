@@ -10,7 +10,9 @@
 #container>div{
     width: 220px;
     height: 310px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #container>div>img{
     height: 70%;
@@ -38,9 +40,11 @@ button{
     margin: 2%;
 }
 #cartDetails{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 300px;
     height: 150px;
     margin-bottom: 20px;
     border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
